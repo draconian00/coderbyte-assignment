@@ -1,5 +1,5 @@
 def ArithGeo(arr)
-	
+  arr = arr.sort	
   for i in (1...arr.length-1) do
     if arr[i] - arr[i-1] == arr[i+1] - arr[i]
       output = "Arithmetic"
